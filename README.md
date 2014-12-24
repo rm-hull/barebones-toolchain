@@ -12,4 +12,4 @@ Built from instructions here: http://wiki.osdev.org/GCC_Cross-Compiler
 | mpc      | 1.0.2   |
 | mpfr     | 3.1.2   |
 
-Git clone, and set environmental variable: ```PATH="_install-dir_/cross/`uname -m`/bin:$PATH"```
+Git clone, and set environmental variable: ```PATH="~/i686-elf/cross/`uname -m`/bin:$PATH"```
