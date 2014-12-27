@@ -2144,8 +2144,8 @@ double underscores.
      '-fstack-protector-strong' is in use.
 
 '__SANITIZE_ADDRESS__'
-     This macro is defined, with value 1, when '-fsanitize=address' is
-     in use.
+     This macro is defined, with value 1, when '-fsanitize=address' or
+     '-fsanitize=kernel-address' are in use.
 
 '__TIMESTAMP__'
      This macro expands to a string constant that describes the date and
@@ -5552,51 +5552,51 @@ Node: Variadic Macros61066
 Node: Predefined Macros65853
 Node: Standard Predefined Macros66441
 Node: Common Predefined Macros72410
-Node: System-specific Predefined Macros92190
-Node: C++ Named Operators94213
-Node: Undefining and Redefining Macros95177
-Node: Directives Within Macro Arguments97275
-Node: Macro Pitfalls98823
-Node: Misnesting99356
-Node: Operator Precedence Problems100468
-Node: Swallowing the Semicolon102334
-Node: Duplication of Side Effects104357
-Node: Self-Referential Macros106540
-Node: Argument Prescan108949
-Node: Newlines in Arguments112704
-Node: Conditionals113655
-Node: Conditional Uses115484
-Node: Conditional Syntax116842
-Node: Ifdef117162
-Node: If120319
-Node: Defined122623
-Node: Else123904
-Node: Elif124474
-Node: Deleted Code125763
-Node: Diagnostics127010
-Node: Line Control128559
-Node: Pragmas132334
-Node: Other Directives137088
-Node: Preprocessor Output138138
-Node: Traditional Mode141336
-Node: Traditional lexical analysis142394
-Node: Traditional macros144897
-Node: Traditional miscellany148698
-Node: Traditional warnings149694
-Node: Implementation Details151891
-Node: Implementation-defined behavior152512
-Ref: Identifier characters153262
-Node: Implementation limits156340
-Node: Obsolete Features159013
-Node: Differences from previous versions161900
-Node: Invocation166102
-Ref: Wtrigraphs170554
-Ref: dashMF175331
-Ref: fdollars-in-identifiers185073
-Node: Environment Variables194900
-Node: GNU Free Documentation License197866
-Node: Index of Directives223011
-Node: Option Index225091
-Node: Concept Index231494
+Node: System-specific Predefined Macros92222
+Node: C++ Named Operators94245
+Node: Undefining and Redefining Macros95209
+Node: Directives Within Macro Arguments97307
+Node: Macro Pitfalls98855
+Node: Misnesting99388
+Node: Operator Precedence Problems100500
+Node: Swallowing the Semicolon102366
+Node: Duplication of Side Effects104389
+Node: Self-Referential Macros106572
+Node: Argument Prescan108981
+Node: Newlines in Arguments112736
+Node: Conditionals113687
+Node: Conditional Uses115516
+Node: Conditional Syntax116874
+Node: Ifdef117194
+Node: If120351
+Node: Defined122655
+Node: Else123936
+Node: Elif124506
+Node: Deleted Code125795
+Node: Diagnostics127042
+Node: Line Control128591
+Node: Pragmas132366
+Node: Other Directives137120
+Node: Preprocessor Output138170
+Node: Traditional Mode141368
+Node: Traditional lexical analysis142426
+Node: Traditional macros144929
+Node: Traditional miscellany148730
+Node: Traditional warnings149726
+Node: Implementation Details151923
+Node: Implementation-defined behavior152544
+Ref: Identifier characters153294
+Node: Implementation limits156372
+Node: Obsolete Features159045
+Node: Differences from previous versions161932
+Node: Invocation166134
+Ref: Wtrigraphs170586
+Ref: dashMF175363
+Ref: fdollars-in-identifiers185105
+Node: Environment Variables194932
+Node: GNU Free Documentation License197898
+Node: Index of Directives223043
+Node: Option Index225123
+Node: Concept Index231526
 
 End Tag Table
