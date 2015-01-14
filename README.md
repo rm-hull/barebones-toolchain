@@ -1,8 +1,9 @@
-# Barebones i686-elf cross compiler
+# Barebones i686-elf & ARMv7-eabi cross-compiler & toolchain
 
-This repo provides a stand-alone barebones gcc cross-compiler for i686 (32-bit) architectures.
-There are two flavors, 32- and 64-bit depending on your host environment. The correct one is
-chosen when the `setenv.sh` script is run.
+This repo provides a stand-alone barebones gcc cross-compiler for i686 
+(32-bit ELF) and ARMv7 (eabi) architectures. There are two platform 
+flavors, 32- and 64-bit depending on your host environment. The correct 
+one is automatically chosen when the `setenv.sh` script is run.
 
 ## Provided versions
 
@@ -20,8 +21,8 @@ chosen when the `setenv.sh` script is run.
 
 Git clone this repository, then run the `setenv.sh` script to configure your PATH:
 
-    $ git clone https://github.com/rm-hull/i686-elf.git
-    $ cd i686-elf
+    $ git clone https://github.com/rm-hull/barebones-toolchain.git
+    $ cd barebones-toolchain
     $ . ./setenv.sh
 
 Check that it worked:
@@ -32,6 +33,17 @@ Check that it worked:
     This is free software; see the source for copying conditions.  There is NO
     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+    $ arm-none-eabi-gcc --version
+    arm-none-eabi-gcc (GCC) 4.9.2
+    Copyright (C) 2014 Free Software Foundation, Inc.
+    This is free software; see the source for copying conditions.  There is NO
+    warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+## TODO
+
+* Build 64-bit platform tools for ARMv7 target (32-bit: done)
+    
 ## Acknowledgements
 
-Built from instructions here: http://wiki.osdev.org/GCC_Cross-Compiler
+Built from instructions here: http://wiki.osdev.org/GCC_Cross-Compiler. 
+ARM build was exactly the same except: `export TARGET=arm-none-eabi`
