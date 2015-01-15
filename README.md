@@ -41,8 +41,8 @@ Check that it worked:
 
 ## TODO
 
-* Build 64-bit platform tools for ARMv7 target (32-bit: done)
-    
+* ~~Build 64-bit platform tools for ARMv7 target~~
+
 ## Acknowledgements
 
 Built from instructions here: http://wiki.osdev.org/GCC_Cross-Compiler. 
