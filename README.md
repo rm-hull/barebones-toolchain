@@ -10,12 +10,12 @@ one is automatically chosen when the `setenv.sh` script is run.
 | Package  | Version |
 |----------|---------|
 | binutils | 2.27    |
-| gcc      | 4.9.2   |
-| gmp      | 6.0.0a  |
-| isl      | 0.13    |
+| gcc      | 6.2.0   |
+| gmp      | 6.1.1   |
+| isl      | 0.17    |
 | libiconv | 1.14    |
-| mpc      | 1.0.2   |
-| mpfr     | 3.1.2   |
+| mpc      | 1.0.3   |
+| mpfr     | 3.1.4   |
 
 ## Setup details
 
@@ -28,14 +28,14 @@ Git clone this repository, then run the `setenv.sh` script to configure your PAT
 Check that it worked:
 
     $ i686-elf-gcc --version
-    i686-elf-gcc (GCC) 4.9.2
-    Copyright (C) 2014 Free Software Foundation, Inc.
+    i686-elf-gcc (GCC) 6.2.0
+    Copyright (C) 2016 Free Software Foundation, Inc.
     This is free software; see the source for copying conditions.  There is NO
     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
     $ arm-none-eabi-gcc --version
-    arm-none-eabi-gcc (GCC) 4.9.2
-    Copyright (C) 2014 Free Software Foundation, Inc.
+    arm-none-eabi-gcc (GCC) 6.2.0
+    Copyright (C) 2016 Free Software Foundation, Inc.
     This is free software; see the source for copying conditions.  There is NO
     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
