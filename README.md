@@ -1,9 +1,9 @@
-# Barebones i686-elf & ARMv7-eabi cross-compiler & toolchain
+# Barebones i686-elf / ARMv7-eabi / MIPS cross-compiler & toolchain
 
-This repo provides a stand-alone barebones gcc cross-compiler for i686
-(32-bit ELF) and ARMv7 (eabi) architectures. There are two platform
-flavors, 32- and 64-bit depending on your host environment. The correct
-one is automatically chosen when the `setenv.sh` script is run.
+This repo provides a stand-alone barebones gcc cross-compiler for i686 (32-bit
+ELF), ARMv7 (eabi) and MIPS architectures. There are two platform flavors, 32-
+and 64-bit depending on your host linux environment. The correct one is
+automatically chosen when the `setenv.sh` script is run.
 
 ## Provided versions
 
@@ -39,6 +39,12 @@ Check that it worked:
     This is free software; see the source for copying conditions.  There is NO
     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+    $ mips-gcc --version
+    arm-none-eabi-gcc (GCC) 6.2.0
+    Copyright (C) 2016 Free Software Foundation, Inc.
+    This is free software; see the source for copying conditions.  There is NO
+    warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
 ## TODO
 
 * ~~Build 64-bit platform tools for ARMv7 target~~
@@ -46,4 +52,6 @@ Check that it worked:
 ## Acknowledgements
 
 Built from instructions here: http://wiki.osdev.org/GCC_Cross-Compiler.
-ARM build was exactly the same except: `export TARGET=arm-none-eabi`
+
+ARM build was exactly the same except: `export TARGET=arm-none-eabi`.
+Likewise MIPS build was exactly the same except: `export TARGET=mips`.
