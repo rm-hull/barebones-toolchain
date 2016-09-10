@@ -1,13 +1,13 @@
 # Barebones [ i686-elf / ARMv7-eabi / MIPS ] cross-compiler & toolchain
 
-This repo provides a stand-alone barebones gcc cross-compiler and toolchain for 
+This repo provides a stand-alone barebones gcc cross-compiler and toolchain for
 the following target architectures:
 
-* i686 (32-bit ELF), 
+* i686 (32-bit ELF),
 * ARMv7 (eabi),
 * MIPS
 
-There are two platform flavors, 32- and 64-bit depending on your host linux environment. 
+There are two platform flavors, 32- and 64-bit depending on your host linux environment.
 The correct one is automatically chosen when the `setenv.sh` script is run.
 
 ## Provided versions
@@ -45,7 +45,7 @@ Check that it worked:
     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
     $ mips-gcc --version
-    arm-none-eabi-gcc (GCC) 6.2.0
+    mips-gcc (GCC) 6.2.0
     Copyright (C) 2016 Free Software Foundation, Inc.
     This is free software; see the source for copying conditions.  There is NO
     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -54,7 +54,7 @@ Check that it worked:
 
 All built versions are tagged in git, and follow the _gcc_ version number:
 
-    $ git tags 
+    $ git tags
     4.9.1
     4.9.2
     6.2.0
